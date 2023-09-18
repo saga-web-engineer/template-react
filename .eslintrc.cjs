@@ -20,6 +20,8 @@ module.exports = {
   plugins: ['react-refresh', 'jsx-a11y', 'react-hooks'],
   rules: {
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+    'no-console': 'error',
+    camelcase: ['error', { properties: 'never' }],
   },
   settings: {
     react: {
