@@ -15,12 +15,14 @@ function About() {
         description="ReactテンプレートのAboutページです。"
         url={`${SITE_URL}/about`}
       />
-      <ul>
+      <ul className="mx-auto grid w-fit gap-2 py-10">
         <li>React</li>
         <li>TypeScript</li>
         <li>Vite</li>
         <li>TanStack Router</li>
         <li>Zustand</li>
+        <li>React Hook Form</li>
+        <li>Zod</li>
         <li>Tailwind CSS</li>
       </ul>
     </>

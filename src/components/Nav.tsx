@@ -15,6 +15,10 @@ const NavData: Nav[] = [
     path: '/about',
     label: 'About',
   },
+  {
+    path: '/contact',
+    label: 'Contact',
+  },
 ];
 
 export const Nav: FC = () => {

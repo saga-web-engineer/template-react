@@ -5,6 +5,8 @@
 - Vite
 - TanStack Router
 - Zustand
+- React Hook Form
+- Zod
 - Tailwind CSS
 
 ## Version
